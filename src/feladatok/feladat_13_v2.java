@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.Set;
 
 //13.	Írj egy programot, mely szöveg file beolvasása során megállapítja melyik karakter hányszor fordult elõ a file-ban! (javasolt megoldás: HashTable)
-public class feladat_13 {
+public class feladat_13_v2 {
 
 	public static void main(String[] args) {
 		String teszt= "ez egy teszt";
