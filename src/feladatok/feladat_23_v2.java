@@ -6,16 +6,7 @@ public class feladat_23_v2 {
 
 	public static void main(String[] args) {
 		String egy = "alma";
-		String ketto = "álmatlan";
-		int pozicio = 0;
-		int count = 0;
-		String teszt = "";
-		teszt.toCharArray();
-		
-		teszt = egy +ketto;
-		System.out.println(teszt);
-
-		
+		String ketto = "álmatlan";	
 		
 		
 	}
