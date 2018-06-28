@@ -10,16 +10,20 @@ public class feladat_13_v2 {
 
 	public static void main(String[] args) {
 		String teszt= "ez egy teszt";
-		String teszt1 = "bátorság";
+		String teszt1 = "bátorság"
+				;
 		int szamlalo = 0;
 		
 		 Hashtable<Character, Integer> hm = new Hashtable<Character, Integer>();
-		 for (char ch : teszt.toCharArray())
-			 hm.put(ch, hm.containsKey(ch) ? (hm.get(ch) + 1) : 1);
-
+		 for (char ch : teszt.toCharArray()) { 
+			hm.put(ch, hm.containsKey(ch) ? (hm.get(ch) + 1):1);
+		 	//System.out.println(hm.get(ch)+1);
+		 	
+		 }
 			System.out.println(hm);
-
-			 
+				
+			
+			
 		    /*Set<Map.Entry<Character, Integer>> set = hm.entrySet();
 
 		    for (Map.Entry<Character, Integer> me : set) {
